@@ -120,21 +120,21 @@
 
 ///////////////////////////////////////
 //The call and apply Methods
-const lufthansa = {
-  airline: 'Lufthansa',
-  iataCode: 'LH',
-  bookings: [],
-  // book: function() {}
-  book(flightNum, name) {
-    console.log(
-      `${name} booked a seat on ${this.airline} flight ${this.iataCode}${flightNum}`
-    );
-    this.bookings.push({ flight: `${this.iataCode}${flightNum}`, name });
-  },
-};
+// const lufthansa = {
+//   airline: 'Lufthansa',
+//   iataCode: 'LH',
+//   bookings: [],
+//   // book: function() {}
+//   book(flightNum, name) {
+//     console.log(
+//       `${name} booked a seat on ${this.airline} flight ${this.iataCode}${flightNum} `
+//     );
+//     this.bookings.push({ flight: `${this.iataCode}${flightNum}`, name });
+//   },
+// };
 
-lufthansa.book(239, 'Jonas Schmedtmann');
-lufthansa.book(635, 'John Smith');
+// // lufthansa.book(239, 'Jonas Schmedtmann');
+// // lufthansa.book(635, 'John Smith');
 
 // const eurowings = {
 //   airline: 'Eurowings',
@@ -144,7 +144,7 @@ lufthansa.book(635, 'John Smith');
 
 // const book = lufthansa.book;
 
-// Does NOT work
+//Does NOT work
 // book(23, 'Sarah Williams');
 
 // Call method
